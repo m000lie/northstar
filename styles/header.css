@@ -3,7 +3,9 @@
 <--- -------------------------- -*/
 
 /* Mobile - 1023px */
-@media only screen and (max-width: 1023px) {
+/* we need to use rem sizing here otherwise */
+/* page will break when user 1rem base font size is too big */
+@media only screen and (max-width: 63.99rem) {
   body.cs-open {
     overflow: hidden;
   }
@@ -323,7 +325,7 @@
 <--- -------------------------- -*/
 
 /* Mobile - 1023px */
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 63.99rem) {
   #cs-navigation .cs-li {
     text-align: center;
     width: 100%;
@@ -382,6 +384,7 @@
   }
 }
 /* Desktop - 1024px */
+/* same rem sizing here */
 @media only screen and (min-width: 64rem) {
   #cs-navigation .cs-dropdown {
     position: relative;
@@ -530,7 +533,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 3.125rem;
+    /* gap: 3.125rem; */
     position: relative;
     z-index: 1;
   }
