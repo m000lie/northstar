@@ -6,7 +6,7 @@
 @media only screen and (min-width: 0rem) {
   #contact-569 {
     padding: var(--sectionPadding);
-    background-color: #fafbfc;
+    /* background-color: #fafbfc; */
     position: relative;
     z-index: 1;
   }

@@ -6,6 +6,7 @@
 @media only screen and (min-width: 0rem) {
   #cs-footer-272 {
     padding: var(--sectionPadding);
+    border-top: 0.5px solid black
     /* Navigation Links */
     /* Contact Links */
   }
